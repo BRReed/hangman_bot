@@ -2,6 +2,7 @@ import discord
 import asyncio
 from discord.ext import commands
 import hangman_bot
+import hmbot_token
 
 
 bot = commands.Bot(command_prefix = '.')
@@ -98,4 +99,4 @@ You had **{guesses}** guesses remaining
             ''')
             break
 
-bot.run(dndbot_token.token)
+bot.run(hmbot_token.token)
